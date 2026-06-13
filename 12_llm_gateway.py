@@ -11,7 +11,7 @@ load_dotenv()
 FAILOVER_MODELS = [
     "gemini/gemini-3.5-flash",         # Primary: latest stable
     "gemini/gemini-2.5-flash",         # Fallback 1: previous generation, still reliable
-    "gemini/gemini-2.0-flash",         # Fallback 2: last resort, fastest/cheapest
+    "gemini/gemini-flash-latest",      # Fallback 2: last resort, fastest/cheapest
 ]
 
 def call_with_failover(user_prompt: str, timeout_seconds: int = 8) -> dict:
