@@ -1,0 +1,24 @@
+# LangChain & LangGraph Core Packages
+langchain>=0.3.0
+langchain-core>=0.3.0
+langgraph>=0.2.0
+langchain-text-splitters>=0.3.0
+
+# Integration Packages
+langchain-google-genai>=2.0.0
+langchain-mcp-adapters>=0.1.0
+
+# LLM Tracing & Gateways
+langsmith>=0.1.0
+litellm>=1.50.0
+
+# Vector Database & Embeddings
+chromadb>=0.5.0
+sentence-transformers>=3.0.0
+
+# MCP (Model Context Protocol) Server SDK
+fastmcp>=0.4.0
+
+# Helper Libraries
+pydantic>=2.0.0
+python-dotenv>=1.0.0
